@@ -19,6 +19,10 @@ vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper win
 vim.keymap.set("n", "<leader>wv", ":vsplit<cr>", { desc = "[W]indow Split [V]ertical" })
 vim.keymap.set("n", "<leader>wh", ":split<cr>", { desc = "[W]indow Split [H]orizontal" })
 
--- Stay in indent mode
+-- Indent selection
 vim.keymap.set("v", "<", "<gv", { desc = "Indent left in visual mode" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent right in visual mode" })
+
+-- Toggleterm
+vim.keymap.set("i", [[<C-\>]], "<cmd>exe v:count1 . 'ToggleTerm'<CR>", { desc = "Open ToggleTerm terminal" })
+vim.keymap.set("n", [[<C-\>]], "<cmd>exe v:count1 . 'ToggleTerm'<CR>", { desc = "Open ToggleTerm terminal" })
