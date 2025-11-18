@@ -34,10 +34,10 @@ vim.fileencoding = "utf-8"
 
 -- Tab spacing
 vim.opt.expandtab = true -- convert tabs to spaces
-vim.opt.shiftwidth = 2 -- number of spaces inserted for each indentation level
-vim.opt.tabstop = 2 -- number of spaces inserted for tab character
-vim.opt.softtabstop = 2 -- number of spaces inserted for <Tab> key
-vim.opt.smartindent = true
+--vim.opt.shiftwidth = 2 -- number of spaces inserted for each indentation level
+--vim.opt.tabstop = 2 -- number of spaces inserted for tab character
+--vim.opt.softtabstop = 2 -- number of spaces inserted for <Tab> key
+--vim.opt.smartindent = true
 vim.opt.breakindent = true
 
 -- Plugin overrides
