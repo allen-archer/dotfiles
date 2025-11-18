@@ -160,6 +160,15 @@ return {
 			},
 			bashls = true,
 			groovyls = {},
+			helm_ls = {
+				settings = {
+					["helm-ls"] = {
+						yamlls = {
+							path = "yaml-language-server",
+						},
+					},
+				},
+			},
 			jsonls = {
 				settings = {
 					json = {
